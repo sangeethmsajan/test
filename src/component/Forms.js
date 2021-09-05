@@ -6,10 +6,10 @@ class Forms extends Component {
         firstName:"",
         lastName:""
     };
-    onHandleChange=(event)=>{
+    onHandleChange=(event)=>{ //arrow functions maximum use chyanam.athile ee section work aavu
       
         this.setState({
-            [event.target.name]:event.target.value
+            [event.target.name]:event.target.value //ivide input box values separate aai kittum
         });
     };
     onSubmit=()=>{
